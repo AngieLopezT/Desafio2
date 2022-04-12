@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+      background-color: rgb(19, 18, 18);
+      color: rgb(249, 247, 247);
+
+}
+
+
+header{
+    text-align: center;
+    padding: 5px 15px;
+    border: 10px double rgb(154, 77, 77);
+    margin: 10px;
+}
+
+
+.menu {
+  overflow: hidden;
+  background-color: rgb(134, 76, 76);
+  margin: 10px;
+}
+
+
+.menu a {
+  float: right;
+  display: block;
+  color: #f9f3f3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.menu a:hover {
+  background-color: rgb(176, 138, 138);
+  color: rgb(12, 12, 12);
+}
+  
+img{
+    display:  block;
+    margin-left: auto;
+    margin-right:auto;
+    border: 5px solid rgb(150, 127, 127);
+    border-radius: 20px;
+    padding: 10px;
+    width: 70%;
+    
+   
+}
+
+h2{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px inset rgb(192, 184, 184);
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    text-decoration-line: underline;
+}
+
+p{
+    padding: 10px;
+    color: rgb(245, 240, 247);
+    font-size: 20px ;
+    margin: 10px;
+    text-align: justify;
+}
+h3{
+  font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(204, 148, 148);
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    
+}
+
+ol{
+    font: 30px;
+    background: none;
+    color: rgb(243, 242, 248);
+    font-size: 24px;
+    padding: 5px;
+    margin: 35px;
+    }
+
+.video{
+  
+  overflow: hidden;
+  padding-top: 56.25%; 
+  display:  block;
+  margin-left: auto;
+  margin-right:auto;
+  border-radius: 20px;
+  padding: 10px;
+ 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(10px auto);
+    padding: 10px;
+   
+  }
+  .container div {
+    background: #4b4a4a;
+    padding: 2em;
+    
+  }
+  .container div:hover {
+    border: 2px solid rgb(43, 9, 9);
+  }
+
+  @media screen and (max-width: 600px) {
+    body {
+      background-image: url("fondo2.jpg");
+      background-color: #877b7b;
+    }
+    
+    img {
+      display: block;
+      border: 5px solid rgb(244, 240, 240);
+      border-radius: 12px;
+      padding: 10px;
+      width: 90%;
+      margin:10px;
+    }
+    .video{
+      max-width: 100%;
+    }
+      
+    p {
+      font-size: 20px;
+      text-align: justify;
+    }
+    h2 {
+      font-size: 25px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      border: 10px inset rgb(196, 99, 94);
+      color: rgb(71, 57, 57);
+      
+      padding: 10px 10px 10px 20px;
+      margin: 10px;
+    }
+  
+    .container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 1em;
+      grid-template-rows: minmax(50px auto);
+      padding: 10px;
+      margin:10px;
+    }
+    .container div {
+      background: #644a4a;
+      padding: 1em;
+    }
+    .container div:hover {
+      border: 2px solid rgb(159, 137, 137);
+    }
+
+    .menu a {
+      float: none;
+      width: 100%;
+    }
+
+
+  }
